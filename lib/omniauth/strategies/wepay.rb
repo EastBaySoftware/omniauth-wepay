@@ -29,8 +29,6 @@ module OmniAuth
       end
 
       def raw_info
-        # for some reason the session state is deleted before retrieving user data, so we reset here
-        session['omniauth.state'] ||= request.params['state']
         @raw_info ||= access_token.get("#{options.client_options[:site]}/user").parsed
       end
     end
