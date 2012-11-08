@@ -1,3 +1,8 @@
+== 0.1.0 2012-11-01
+
+ * switched to using omniauth-oauth2 gem, added spec tests
+
+
 == 0.0.2 2012-08-12
 
  * added ritual gem to make gem release easier.

@@ -1,4 +1,4 @@
-# Omniauth Wepay
+# OmniAuth Wepay
 
 WePay OAuth2 Strategy for OmniAuth 1.0.
 
