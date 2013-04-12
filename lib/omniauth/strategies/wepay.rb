@@ -5,7 +5,7 @@ module OmniAuth
     class Wepay < OmniAuth::Strategies::OAuth2
 
       option :name, 'wepay'
-      option :scope, 'manage_accounts,view_balance,collect_payments,refund_payments,view_user,send_money'
+      option :scope, 'manage_accounts,view_balance,collect_payments,refund_payments,view_user,send_money,preapprove_payments'
 
       option :client_options, {
         :site           => 'https://stage.wepayapi.com/v2',
